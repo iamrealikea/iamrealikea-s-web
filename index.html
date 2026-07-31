@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iamrealikea — Digital Business Card</title>
+  <meta name="description"
+    content="A premium personal link-in-bio page and modern digital business card. Connect with iamrealikea across all platforms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section id="hero" class="hero">
+    <!-- Animated background canvas -->
+    <canvas id="hero-canvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-badge animate-in" style="--delay: 0.1s">
+        <span class="badge-dot"></span>
+        Available for projects
+      </div>
+      <h1 class="hero-title animate-in" style="--delay: 0.25s">
+        Hello, I'm <span class="accent-text">iamrealikea</span>
+      </h1>
+      <p class="hero-subtitle animate-in" style="--delay: 0.45s">
+        Creative developer &amp; designer crafting digital experiences that inspire.
+      </p>
+      <div class="hero-accent-line animate-in" style="--delay: 0.6s"></div>
+
+      <div class="hero-actions animate-in" style="--delay: 0.7s">
+        <a href="#" class="btn btn-primary">
+          <i class="fas fa-images"></i> Gallery
+        </a>
+        <a href="https://www.youtube.com/@realikea/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <i class="fab fa-youtube"></i> YouTube
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#links" class="scroll-indicator animate-in" style="--delay: 0.9s" aria-label="Scroll down">
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span class="scroll-text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ============ LINKS / SOCIAL GRID SECTION ============ -->
+  <section id="links" class="links-section">
+    <div class="section-header">
+      <h2 class="section-title">
+        <span class="accent-text">Connect</span> with me
+      </h2>
+      <p class="section-subtitle">Find me across the web — let's build something great together.</p>
+    </div>
+
+    <div class="links-grid">
+      <!-- Card 1 — Portfolio -->
+      <a href="#" class="link-card" data-index="0" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon-wrapper">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">Portfolio</span>
+          <span class="card-desc">View my work</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+
+      <!-- Card 2 — GitHub -->
+      <a href="#" class="link-card" data-index="1" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon-wrapper">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">GitHub</span>
+          <span class="card-desc">Open source projects</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+
+      <!-- Card 3 — LinkedIn -->
+      <a href="#" class="link-card" data-index="2" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon-wrapper">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">LinkedIn</span>
+          <span class="card-desc">Professional network</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+
+      <!-- Card 4 — Twitter / X -->
+      <a href="#" class="link-card" data-index="3" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon-wrapper">
+          <i class="fab fa-x-twitter"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">Twitter / X</span>
+          <span class="card-desc">Thoughts & updates</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+
+      <!-- Card 5 — Instagram -->
+      <a href="#" class="link-card" data-index="4" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon-wrapper">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">Instagram</span>
+          <span class="card-desc">Visual stories</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+
+      <!-- Card 7 — Email -->
+      <a href="mailto:hello@example.com" class="link-card" data-index="6">
+        <div class="card-icon-wrapper">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">Email</span>
+          <span class="card-desc">Get in touch</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+
+      <!-- Card 8 — Blog -->
+      <a href="#" class="link-card" data-index="7" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon-wrapper">
+          <i class="fas fa-pen-nib"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">Blog</span>
+          <span class="card-desc">Articles & insights</span>
+        </div>
+        <i class="fas fa-arrow-right card-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-accent"></div>
+    <p class="footer-text">
+      &copy; 2026 <span class="accent-text">iamrealikea</span>. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3862279113664078"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
